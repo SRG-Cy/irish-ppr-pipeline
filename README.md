@@ -2,11 +2,11 @@
 
 An end-to-end ELT pipeline built on the Irish Property Price Register (PPR) open dataset, demonstrating production-style data engineering practices using Python, dbt, PostgreSQL, and Metabase — fully containerised with Docker.
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](dashboard.png)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 data.gov.ie (PPR CSV)
@@ -187,8 +187,8 @@ dbt test
 
 ## 👤 Author
 
-Built as part of an Irish Data Engineering portfolio targeting €45k–€60k roles in Ireland.
-
+Built as part of Data Engineering project.
+### SREERAG POCHAPPAN
 - MSc Business Analytics — University of Galway (NUIG)
 - Skills: Python · SQL · dbt · PostgreSQL · Docker · Data Modelling
 
