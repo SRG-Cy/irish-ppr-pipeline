@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze
+    tables:
+      - name: bronze_ppr_raw
+        description: "Raw PPR data loaded from data.gov.ie CSV"
+        columns:
+          - name: county
+            tests: [not_null]
+          - name: "price_€"
+            tests: [not_null]

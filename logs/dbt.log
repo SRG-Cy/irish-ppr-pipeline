@@ -1,0 +1,44 @@
+==================== 2026-03-01T19:18:54.799706Z | 019caad6-e02f-7f40-b884-7b1b98f788da ====================
+19:18:54.805327 [info ]: Installing dbt project and profile setup
+19:18:54.859191 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+19:18:54.863313 [info ]: Success Project created successfully!
+19:18:54.864508 [info ]: Info Project name: jaffle_shop
+19:18:54.865581 [info ]: Info Project directory: jaffle_shop
+19:18:54.866206 [info ]: Info Setting up your profile...
+19:18:54.879011 [info ]: Info Creating new profile...
+19:20:10.777222 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+19:21:06.731203 [info ]: Success Profile written to C:\Users\sreer\.dbt\profiles.yml
+19:21:06.732461 [info ]: Validating profile inputs, adapters, and connection
+
+19:21:06.733558 [info ]: dbt-fusion 2.0.0-preview.120
+19:21:06.739549 [info ]: Started loading project
+19:21:06.777429 [info ]: Loading ~/.dbt/profiles.yml
+19:21:06.797987 [info ]: Finished loading project [  0.06s]
+19:21:06.802392 [info ]: Started debugging
+19:21:06.803182 [info ]: Debugging profile: dev
+19:21:06.803853 [info ]: Debugging dbt version: 2.0.0-preview.120
+19:21:06.804771 [info ]: Debugging platform: windows x86_64 (windows)
+19:21:06.805607 [info ]: Debugging adapter type: postgres (remote)
+19:21:06.848423 [info ]: Debugging dependencies:
+  git: OK
+19:21:06.851651 [info ]: Debugging connection:
+  "port": 5432,
+  "database": "ppr_db",
+  "schema": "silver",
+  "host": "localhost",
+  "user": "ppr_user"
+19:21:07.300344 [info ]: Finished debugging [  0.50s]
+19:21:07.301831 [error]: dbt1011: Error with dynamic library: LoadLibraryExW failed
+19:21:07.480054 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' with 1 error for target 'dev' [2m 13s]
+[0m19:53:57.655201 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B784525410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B783535D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B783F65A10>]}
+
+
+============================== 19:53:57.670365 | 9956815b-c977-4bf5-a4e0-7888715716a7 ==============================
+[0m19:53:57.670365 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:53:57.671360 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'debug': 'False', 'log_path': 'logs', 'invocation_command': 'dbt init dbt_project', 'log_cache_events': 'False', 'write_json': 'True', 'printer_width': '80', 'version_check': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'profiles_dir': 'C:\\Users\\sreer\\.dbt', 'partial_parse': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'quiet': 'False', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'fail_fast': 'False', 'no_print': 'None'}
+[0m19:53:57.671360 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m19:53:57.672686 [debug] [MainThread]: Command `dbt init` succeeded at 19:53:57.672686 after 0.05 seconds
+[0m19:53:57.673756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7842228D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B783E0D990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7FD1FE150>]}
+[0m19:53:57.673756 [debug] [MainThread]: Flushing usage events
